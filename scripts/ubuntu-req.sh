@@ -2,7 +2,7 @@
 
 set -ex
 
-sudo apt-get install -y build-essential bison flex autoconf
+sudo apt-get install -y build-essential bison flex autoconf gettext
 sudo apt-get install -y libgmp-dev libmpfr-dev libmpc-dev zlib1g-dev vim git default-jdk default-jre
 # install sbt: https://www.scala-sbt.org/release/docs/Installing-sbt-on-Linux.html
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
